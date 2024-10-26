@@ -79,7 +79,7 @@ FROM TeamGenreShare
 ORDER BY PrizeShare DESC;
 
 
---4. Which continent has the highest representation in top esports competitions?
+--4. Which continent and country has the highest representation in top esports competitions?
 
 SELECT 
     c.Continent_Name, 
