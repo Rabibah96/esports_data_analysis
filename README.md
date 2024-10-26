@@ -1,6 +1,6 @@
 # Esports Data Analysis Using SQL
 ## Project Overview
-Esports short for electronic sports, is a form of competition using video games. Esports often takes the form of organized, multiplayer video game competitions, particularly between professional players, played individually or as teams. This project includes CRUD operations and EDA Analysis. It analyzes the earnings of players and teams accross different regions, in different games and tournaments. 
+Esports short for electronic sports, is a form of competition using video games. Esports often takes the form of organized, multiplayer video game competitions, particularly between professional players, played individually or as teams. This project includes CRUD operations and EDA Analysis. It analyzes the earnings of players and teams across different regions, in different games and tournaments. 
 
 **Level:** Beginner 
 ## Dataset
