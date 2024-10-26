@@ -92,7 +92,7 @@ GROUP BY Game
 ORDER BY AvgPrizeMoney DESC;
 ```
 
-**Business Insight:** Finding out which games have the highest payouts allows organizations to focus resources on those games for better returns on investment.
+**Business Insight:** Finding out which games have the highest payouts.
 
 **3. Which teams have the largest percentage share of the total prize in their respective genres?**
 
@@ -165,7 +165,7 @@ GROUP BY TeamName
 ORDER BY HighStakesWins DESC, LowStakesWins DESC;
 ```
 
-**Business Insight:** Analyze how players/teams handle high-pressure environments (high-payout tournaments) versus smaller ones, giving insight into their resilience and performance consistency.
+**Business Insight:** Analyze how teams handle high-pressure environments (high-payout tournaments) versus smaller ones.
 
 **7. What is the impact of tournament size on total prize money in each game?**
 
@@ -184,4 +184,7 @@ ORDER BY TotalTournaments DESC;
 **Business Insight:** Determine if larger tournaments yield significantly higher rewards.
 
 ## Findings
-
+- Identified the top performing teams and players in esports based on their total earnings.
+- identified geographical distribution of talent and teams across countries and continents.
+- Analyze how teams perform under high-pressure environments.
+- Determined the impact of bigger tournaments on the team's monetary reward for each game.
