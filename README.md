@@ -66,8 +66,8 @@ WHERE Game = 'Dota 2'
 GROUP BY Game, GameId;
 ```
 
-## Data Anaysis and Findings
-**1. Which teams are the most successful in terms of total earnings?**
+## Data Analysis and Findings
+**1. Which top 10 teams are the most successful in terms of total earnings?**
 
 ```sql
 SELECT TOP 10
@@ -167,7 +167,7 @@ ORDER BY HighStakesWins DESC, LowStakesWins DESC;
 
 **Business Insight:** Analyze how players/teams handle high-pressure environments (high-payout tournaments) versus smaller ones, giving insight into their resilience and performance consistency.
 
-**7. What is the impact of tournament size (number of participants) on the total prize pool?**
+**7. What is the impact of tournament size on total prize money in each game?**
 
 ```sql
 SELECT 
@@ -182,3 +182,6 @@ ORDER BY TotalTournaments DESC;
 ```
 
 **Business Insight:** Determine if larger tournaments yield significantly higher rewards.
+
+## Findings
+
