@@ -1,6 +1,6 @@
 # Esports Data Analysis Using SQL
 ## Project Overview
-Esports short for electronic sports, is a form of competition using video games. Esports often takes the form of organized, multiplayer video game competitions, particularly between professional players, played individually or as teams. This project includes CRUD operations and EDA Analysis. It analyzes the earnings of players and teams across different regions, in different games and tournaments. 
+Esports short for electronic sports, is a form of competition using video games. Esports often takes the form of organized, multiplayer video game competitions, particularly between professional players, played individually or as teams. This project includes CRUD operations and EDA Analysis. It analyzes the earnings of players and teams across different regions, in different games and tournaments. The key KPIs that were used are TotalUSDPrize and TotalTournaments. The recommendations will be used by Esports team managers and managing clubs to better manage the teams and players to improve their performance.
 
 **Level:** Beginner 
 ## Dataset
@@ -185,6 +185,6 @@ ORDER BY TotalTournaments DESC;
 
 ## Findings
 - Identified the top performing teams and players in esports based on their total earnings.
-- identified geographical distribution of talent and teams across countries and continents.
+- Identified geographical distribution of talent and teams across countries and continents.
 - Analyze how teams perform under high-pressure environments.
 - Determined the impact of bigger tournaments on the team's monetary reward for each game.
